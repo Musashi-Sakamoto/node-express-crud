@@ -1,0 +1,26 @@
+{
+  "name": "server-tutorial",
+  "version": "1.0.0",
+  "description": "How to create node.js server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Web",
+    "server"
+  ],
+  "author": "Musashi Sakamoto",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.14"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
